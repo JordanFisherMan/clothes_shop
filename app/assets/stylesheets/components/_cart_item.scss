@@ -1,0 +1,16 @@
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+
+  &__primary{
+    width: 30%;
+  }
+
+  &__secondary{
+    width: 70%;
+  }
+
+  &__image{
+    width: 100%;
+  }
+}

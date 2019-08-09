@@ -1,0 +1,25 @@
+.selection{
+  display: flex;
+  align-items: end;
+
+  &__label,
+  &__selected{
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+
+  &__label{
+    color: $font-colour-secondary;
+  }
+
+  &__required{
+    width: 5px;
+    color: $required;
+  }
+
+  &__selected{
+    margin-left: 5px;
+  }
+}

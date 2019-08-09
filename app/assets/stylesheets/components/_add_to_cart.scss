@@ -1,0 +1,16 @@
+.add-to-cart{
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 7px 20px;
+  border: 2px solid black;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  transition: background-color 0.2s;
+  transition: color 0.2s;
+
+  &:hover{
+    background-color: black;
+    color: white;
+  }
+}

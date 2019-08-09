@@ -1,0 +1,24 @@
+.header {
+  background: #F6F6F7;
+
+  &__my-cart{
+    display: block;
+    margin-left: auto;
+    position: relative;
+    padding: 5px;
+    border-top: 1px solid $header-background;
+    border-right: 1px solid $header-background;
+    border-left: 1px solid $header-background;
+
+    &:hover{
+      background: white;
+      border-color: $border-light-grey;
+    }
+  }
+
+  &__cart{
+    position: absolute;
+    right: 0;
+    top: 100%;
+  }
+}

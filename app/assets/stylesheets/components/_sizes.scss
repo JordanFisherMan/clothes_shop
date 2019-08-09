@@ -1,0 +1,11 @@
+.sizes{
+
+  &__size{
+    padding: 10px 13px;
+    border: 1px solid $border-light-grey;
+  }
+
+  .selected{
+    border: 2px solid $border-dark-grey;
+  }
+}

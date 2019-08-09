@@ -1,0 +1,9 @@
+.cart{
+  background: white;
+  width: 350px;
+  border: 1px solid $border-light-grey;
+
+  &__item{
+    padding: 0 17px;
+  }
+}
