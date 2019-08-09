@@ -1,9 +1,14 @@
 .cart{
   background: white;
-  width: 350px;
+  width: 285px;
   border: 1px solid $border-light-grey;
 
   &__item{
     padding: 0 17px;
+    padding-bottom: 17px;
+
+    &:first-child{
+      padding-top: 17px;
+    }
   }
 }

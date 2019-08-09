@@ -13,12 +13,32 @@
     &:hover{
       background: white;
       border-color: $border-light-grey;
+
+      .header__cart{
+        display: block;
+      }
+
+      &:after{
+        display: block;
+      }
+    }
+
+    &:after{
+      content: '';
+      width: 100%;
+      height: 1px;
+      background: white;
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      display: none;
     }
   }
 
   &__cart{
     position: absolute;
-    right: 0;
+    right: -1px;
     top: 100%;
+    display: none;
   }
 }
